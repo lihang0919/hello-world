@@ -53,6 +53,7 @@ print(response)
 
 
 简易版机器人  学习
+
 #/usr/bin/env python3
 #coding:utf-8
 
@@ -102,6 +103,7 @@ while flag == 'c' or 't':
         continue
 
 网络数据爬取
+
 import urllib.request
 from bs4 import BeautifulSoup
 response = urllib.request.urlopen('http://corpus.zhonghuayuwen.org')
@@ -112,6 +114,7 @@ tokens = [t for t in text.split()]
 print (tokens)
 
 自己版
+
 import Levenshtein
 import numpy
 import jieba
